@@ -1,0 +1,185 @@
+/* Pc Style - Start */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Fonts */
+.font-large {
+    font-weight: normal;
+    font-size: 2.5vw;
+}
+
+.font-small {
+    font-size: 1.5vw !important;
+}
+
+.font-special {
+    font-weight: 400;
+    font-size: 1.5vw;
+}
+
+/* Nav Bar */
+.nav-logo-hide {
+    visibility: hidden;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+/* Section  */
+.section {
+    height: 100vh;
+}
+
+.section-content-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Profile */
+.profile-img {
+    width: 20%;
+    border-radius: 50%;
+}
+
+/* Heading */
+.heading {
+    width: 12.5%;
+    margin: 1% auto 2.5% auto;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #cccccc;
+}
+
+
+/* Progress Bar */
+.progress {
+    width: 25%;
+    height: 2.5vw !important;
+    background-color: #cccccc !important;
+}
+
+.progress-bar {
+    height: 2.5vw !important;
+}
+
+.progress-bar-text {
+    color: #cccccc;
+}
+
+/* card */
+.card {
+    width: 30%;
+}
+
+/* Carousel */
+.carousel-div {
+    width: 30%;
+    margin: auto auto;
+}
+
+/* Social Icon */
+
+.social-btn {
+    width: 25%;
+}
+
+.social-icon {
+    font-size: 3.5vw;
+    margin: 1.5vw;
+    color: gray;
+}
+
+.social-icon:hover {
+    color: #2c3034;
+}
+
+@media screen and (max-width:576px) {
+
+    /* Font */
+    .font-large {
+        font-size: 5.5vw;
+    }
+
+    .font-small {
+        font-size: 4vw !important;
+    }
+
+    .font-special {
+        font-size: 3.5vw;
+    }
+
+    /* Navigation Bar */
+    .nav-item {
+        margin: 1.5vh 0vh;
+    }
+
+    /* Profile */
+    .profile-img {
+        width: 30%;
+    }
+
+    /* Section */
+    .section {
+        height: unset;
+        padding: 20% 0% 0% 0%;
+    }
+
+    .section-content-box {
+        position: unset;
+        top: unset;
+        left: unset;
+        transform: unset;
+    }
+
+    /* Heading */
+    .heading {
+        width: 25%;
+        margin: 2% auto 8% auto;
+        padding-bottom: 2.5%;
+        border-bottom: 1px solid #cccccc;
+    }
+
+    /* Progress Bar */
+    .progress {
+        width: 50%;
+        height: 5.6vw !important;
+        background-color: #cccccc !important;
+    }
+
+    .progress-bar {
+        height: 5.6vw !important;
+    }
+
+    .progress-bar-text {
+        font-size: 2.5vw;
+    }
+
+    /* Card */
+    .card {
+        width: 65%;
+    }
+
+    /* Carousel */
+    .carousel-div {
+        width: 65%;
+        margin: auto auto;
+
+    }
+
+    /* Social Icon */
+    .social-btn {
+        width: 50%;
+    }
+
+    .social-icon {
+        font-size: 8vw;
+        margin: 3vw;
+    }
+
+}
